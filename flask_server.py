@@ -61,14 +61,6 @@ def draw_korean_text_on_image(image, text, position):
     
     return cv2.cvtColor(np.array(pil_image), cv2.COLOR_RGB2BGR)
 
-def parse_shape_result(shape_string):
-    """ "원형 (95.00%), 타원형 (5.00%)" 같은 문자열을 ['원형', '타원형'] 리스트로 변환합니다. """
-    try:
-        # 정규식을 사용하여 괄호 안의 퍼센트를 제외한 한글 모양 이름만 추출
-        shapes = re.findall(r'([가-힣]+)\s*\(', shape_string)
-        return shapes if shapes else ["모양 분석 실패"]
-    except:
-        return ["모양 분석 실패"]
 
 # --- API 엔드포인트 ---
 @app.route('/predict', methods=['POST'])
@@ -159,4 +151,5 @@ def detail():
 if __name__ == '__main__':
     # ★★★ 변경된 부분: use_reloader=False를 추가하여 자동 재시작 문제 해결 ★★★
     app.run(host='0.0.0.0', port=5000, debug=True, use_reloader=False)
+
 
