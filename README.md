@@ -88,8 +88,15 @@
 
 ## ⚙️ 환경 설정
 
+### 1\. 필수 라이브러리 설치
 
-### 1\. Tesseract OCR 설치 (필수)
+설치해야 할 라이브러리에 대한 정보가 requirements.txt에 존재합니다.
+
+```python
+pip install -r requirements.txt
+```
+
+### 2\. Tesseract OCR 설치 (필수)
 
 각인 분석을 위해 Tesseract OCR 엔진이 시스템에 설치되어 있어야 합니다.
 
@@ -100,7 +107,7 @@
     pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe' # 예시 경로
     ```
 
-### 2\. 환경 변수 설정 (`.env` 파일)
+### 3\. 환경 변수 설정 (`.env` 파일)
 
 프로젝트 루트 디렉터리에 `.env` 파일을 생성하고, 아래 형식에 맞춰 API 키를 입력하세요.
 
@@ -110,7 +117,7 @@ GO_DATA_API_KEY="공공데이터포털에서 발급받은 Decoding 인증키"
 NAVER_CLOVA_API_KEY="Naver CLOVA OCR Secret Key"
 ```
 
-### 3\. AI 모델 및 데이터 준비
+### 4\. AI 모델 및 데이터 준비
 
   - 학습된 AI 모델 가중치 파일(`detection_model.pt`, `shape_model.h5`)을 `weights/` 폴더에 위치시킵니다.
   - 알약 정보가 담긴 `pill.csv` 파일을 `database/` 폴더에 위치시킵니다.
