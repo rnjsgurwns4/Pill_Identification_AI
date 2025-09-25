@@ -1,22 +1,12 @@
 
 # 💊 AI 알약 식별 프로젝트 (AI Pill Identifier)
 
-[](https://www.google.com/search?q=https://github.com/your-username/your-repository-name)
-[](https://www.python.org)
-[](https://www.tensorflow.org/)
-[](https://www.google.com/search?q=https://ultralytics.com/)
-[](https://flask.palletsprojects.com/)
-[](https://opensource.org/licenses/MIT)
 
 이미지 한 장으로 알약의 모양, 색상, 각인(글자)을 종합적으로 분석하여 어떤 약인지 식별해주는 AI 기반 시스템입니다.
 
 <br>
 
-**팀 페이지 주소**: [https://kookmin-sw.github.io/capstone-2021-22](https://kookmin-sw.github.io/capstone-2021-22)
-**중간발표 주소**: [https://drive.google.com/file/d/1kPHVM13y5LI24Fdjgq\_JBC69lQjyPFsl/view?usp=sharing](https://drive.google.com/file/d/1kPHVM13y5LI24Fdjgq_JBC69lQjyPFsl/view?usp=sharing)
-**최종발표 주소**: [https://youtu.be/-fjrBTSwmu4](https://youtu.be/-fjrBTSwmu4)
 
-<br>
 
 ## 📚 목차 (Table of Contents)
 
@@ -32,8 +22,7 @@
 7.  [설치 및 환경 설정](https://www.google.com/search?q=%23%EF%B8%8F-%EC%84%A4%EC%B9%98-%EB%B0%8F-%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95)
 8.  [실행 방법](https://www.google.com/search?q=%23%EF%B8%8F-%EC%8B%A4%ED%96%89-%EB%B0%A9%EB%B2%95)
 9.  [각 파일 기능 설명](https://www.google.com/search?q=%23-%EA%B0%81-%ED%8C%8C%EC%9D%BC-%EA%B8%B0%EB%8A%A5-%EC%84%A4%EB%AA%85)
-10. [기여 방법](https://www.google.com/search?q=%23-%EA%B8%B0%EC%97%AC-%EB%B0%A9%EB%B2%95)
-11. [라이선스](https://www.google.com/search?q=%23-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4)
+
 
 <br>
 
@@ -51,57 +40,9 @@
 
 1.  **알약 검색**
       * 알약 사진 촬영을 통한 검색
-      * 텍스트 정보(이름, 효능 등)를 통한 검색
-2.  **내 약통 기능**
-      * 사용자가 복용하고 있는 약의 종류를 관리할 수 있는 즐겨찾기 기능
 
-### 프로젝트 구성도
+----
 
-### 기대효과
-
-'이게뭐약?' 개발을 통해 일상생활에서 누구나 의약품을 쉽고 빠르게 식별 가능하도록 하여 의약품 정보 활용의 기회를 넓힙니다. 또한 얻은 의약품의 정보를 통해 비슷한 약의 중복 처방으로 인한 오남용, 잘못된 알약 복용 등의 문제를 미리 방지하여 사용자의 안전하고 건강한 의약품 소비를 기대해 볼 수 있습니다.
-
------
-
-## 2\. 소개 영상
-
-### 홍보영상 보러가기
-
-[](https://www.google.com/search?q=%5Bhttps://drive.google.com/file/d/1Zw7w_8N1e5AV6rv_GLk4jOZbXOUsoFyR/view%3Fusp%3Dsharing%5D\(https://drive.google.com/file/d/1Zw7w_8N1e5AV6rv_GLk4jOZbXOUsoFyR/view%3Fusp%3Dsharing\))
-
-### 시연영상 보러가기
-
-[](https://drive.google.com/file/d/1uk1CV_iIfjNnzZ5MIiyrygWHF8sZ8Njg/view?usp=sharing)
-
-### 시연영상2 보러가기
-
-[https://youtu.be/Yh6jDoGDLxA](https://youtu.be/Yh6jDoGDLxA)
-
------
-
-## 3\. 팀 소개
-
-#### 김윤정
-
-\<img src="[https://user-images.githubusercontent.com/28584226/113485108-f80e2e80-94e6-11eb-903b-1b324d57382f.jpeg](https://user-images.githubusercontent.com/28584226/113485108-f80e2e80-94e6-11eb-903b-1b324d57382f.jpeg)" alt="image-yunjeong" width= 30%/\>
-
-```
-Student ID: 20171600
-E-mail: jje0ng@kookmin.ac.kr
-Role: 팀장, AI 모델 개발, 데이터 라벨링
-```
-
-#### 고지원
-
-\<img src="[https://user-images.githubusercontent.com/28584226/113485623-82579200-94e9-11eb-8fbb-02e12f73396c.jpeg](https://user-images.githubusercontent.com/28584226/113485623-82579200-94e9-11eb-8fbb-02e12f73396c.jpeg)" alt="image-jiwon" width= 30% /\>
-
-```
-Student ID: 20171577
-E-mail: gggoe@kookmin.ac.kr
-Role: UI/UX 디자인 및 앱 기획, 클라이언트 개발
-```
-
------
 
 ## ✨ 주요 기능 (시스템)
 
@@ -143,42 +84,16 @@ Role: UI/UX 디자인 및 앱 기획, 클라이언트 개발
 ├── shape_analysis.py
 ├── ...
 │
-├── .env                  # API 키 등 환경 변수 설정 파일
-└── requirements.txt      # 프로젝트 의존성 라이브러리 목록
+└── .env                  # API 키 등 환경 변수 설정 파일
+
 ```
 
 -----
 
-## ⚙️ 설치 및 환경 설정
+## ⚙️ 환경 설정
 
-### 1\. Git 저장소 복제
 
-```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-```
-
-### 2\. 가상 환경 생성 및 활성화 (권장)
-
-```bash
-# Windows
-python -m venv venv
-venv\Scripts\activate
-
-# macOS / Linux
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### 3\. 필수 라이브러리 설치
-
-```bash
-pip install -r requirements.txt
-```
-
-> **Note**: `requirements.txt` 파일에 `tensorflow`, `ultralytics`, `opencv-python`, `flask`, `python-dotenv`, `scikit-learn`, `requests`, `Pillow`, `pytesseract` 등이 포함되어 있어야 합니다.
-
-### 4\. Tesseract OCR 설치 (필수)
+### 1\. Tesseract OCR 설치 (필수)
 
 각인 분석을 위해 Tesseract OCR 엔진이 시스템에 설치되어 있어야 합니다.
 
@@ -189,7 +104,7 @@ pip install -r requirements.txt
     pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe' # 예시 경로
     ```
 
-### 5\. 환경 변수 설정 (`.env` 파일)
+### 2\. 환경 변수 설정 (`.env` 파일)
 
 프로젝트 루트 디렉터리에 `.env` 파일을 생성하고, 아래 형식에 맞춰 API 키를 입력하세요.
 
@@ -199,7 +114,7 @@ GO_DATA_API_KEY="공공데이터포털에서 발급받은 Decoding 인증키"
 NAVER_CLOVA_API_KEY="Naver CLOVA OCR Secret Key"
 ```
 
-### 6\. AI 모델 및 데이터 준비
+### 3\. AI 모델 및 데이터 준비
 
   - 학습된 AI 모델 가중치 파일(`detection_model.pt`, `shape_model.h5`)을 `weights/` 폴더에 위치시킵니다.
   - 알약 정보가 담긴 `pill.csv` 파일을 `database/` 폴더에 위치시킵니다.
@@ -248,22 +163,3 @@ Flask 기반의 API 서버를 실행하여 외부 요청을 받아 실시간으�
 | `database_handler.py`      | **데이터베이스 핸들러**. 분석된 특징들과 DB를 비교하여 가장 일치하는 알약을 찾습니다.                  |
 | `api_handler.py`           | **외부 API 핸들러**. 공공데이터포털 API를 호출하여 식별된 알약의 상세 정보를 조회합니다.                  |
 
------
-
-## 🙌 기여 방법 (Contributing)
-
-이 프로젝트에 기여하고 싶으시다면 언제든지 환영합니다\!
-
-1.  이 저장소를 Fork 하세요.
-2.  새로운 기능 브랜치를 생성하세요 (`git checkout -b feature/AmazingFeature`).
-3.  변경 사항을 커밋하세요 (`git commit -m 'Add some AmazingFeature'`).
-4.  브랜치에 Push 하세요 (`git push origin feature/AmazingFeature`).
-5.  Pull Request를 열어주세요.
-
------
-
-## 📜 라이선스 (License)
-
-이 프로젝트는 MIT 라이선스를 따릅니다. 자세한 내용은 `LICENSE` 파일을 참고하세요.
-
------
