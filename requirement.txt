@@ -1,0 +1,22 @@
+# requirements.txt
+
+# --- Web Framework ---
+Flask
+Flask-Cors
+
+# --- AI & Machine Learning ---
+tensorflow
+ultralytics
+scikit-learn
+
+# --- Image Processing & Data Handling ---
+opencv-python
+numpy
+Pillow
+
+# --- OCR (Optical Character Recognition) ---
+pytesseract
+
+# --- API & Utilities ---
+requests
+python-dotenv
